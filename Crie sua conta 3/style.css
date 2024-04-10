@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image:url(../Home/Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.area1{
+    padding-top: 50px;
+    float: left;
+}
+
+.seta{
+    position: absolute;
+    display: flex;
+    padding-top: 60px;
+    padding-left: 300px;
+}
+
+.seta h3{
+    font-size: 15px;
+    display: flex;
+    padding-top: 5px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.seta:hover{
+    transition: 0.5s;
+    transform: scale(102%);
+}
+
+input{
+    position: relative;
+    display: block;
+}
+
+.input-box input{
+    padding-left: 10px;
+    height: 40px;
+    width: 100%;
+    border: solid black 0.5px;
+    border-radius: 5px;
+}
+
+.grupo-input{
+    flex-direction: column;
+    display: flex;
+    padding-top: 15%;
+    padding-left: 340px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 12px;
+}
+
+.requerimentos{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 4px;
+    display: block;
+}
+
+.botao1{
+    padding-top: 20px;
+    padding-left: 360px;
+    display: flex;
+    align-items: start;
+}
+.botao1 :hover{
+    transition: 0.5s;
+    filter: brightness(90%);
+}
+
+.termos{
+    padding-top: 20px;
+    padding-left: 380px;
+    display: flex;
+    font-size: 8px;
+    font-family: "Nunito Sans", sans-serif
+    
+}
+
+.area2 h2{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 80px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.lorem{
+    display:flex;
+    font-size: 10px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.cow{
+    display: flex;
+    justify-content: end;
+    padding-right: 22%;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
